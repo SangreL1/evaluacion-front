@@ -132,3 +132,97 @@ img {
 /*Fin footer */
 
 
+/*Inicio sobre-nosotros */
+.sobre-nosotros{
+    background-color: black;
+    height: 27rem;
+    width: 68rem;
+    margin-left: 35rem;
+    margin-top: 10rem;
+    text-align: center;
+    
+}
+
+.t-nosotros{
+    display: flex;
+    justify-content: center;
+    color: #ffcc00;
+}
+
+.sobre-nosotros h2{
+    display: flex;
+    font-size: 4rem;
+}
+
+
+.sobre-nosotros p{
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+.boton a[aria-current="page"]{
+  background-color: #ffcc00;
+  color:black;
+  border-bottom-right-radius: 2rem;
+  margin-top: 0.6rem;
+  padding: 0.8rem;
+  text-decoration: none;
+}
+
+
+/*Fin sobre-nosotros */
+
+/*Inicio contacto */
+
+.contacto{
+    height: 50rem;
+    width: 68rem;
+    margin-left: 35rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.t-contacto{
+    color:#ffcc00 ;
+    font-size: 4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.form label {
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.form input, .form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  
+}
+
+.form button {
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #ffcc00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 40rem;
+  border-bottom-right-radius: 2rem;
+}
+
+
+/*Fin contacto */
