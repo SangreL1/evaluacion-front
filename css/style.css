@@ -22,6 +22,7 @@ img {
 .background-img{
     width: 200rem;
 }
+/*Inicio navegador */
 
 .navegador{
     position: absolute;
@@ -74,4 +75,60 @@ img {
     bottom: 70rem;
     left:30rem ;
 }
+
+/*Fin navegador */
+
+
+/*Inicio main */
+
+/*Fin main */
+
+/*Incio footer */
+.footer{
+    background-color: black;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-footer img{
+    height: 5rem;
+}
+
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.footer a{
+    color:white;
+    border-radius: 0.4rem;
+    margin-top: 0.6rem;
+    padding: 0.8rem;
+  
+  }
+
+  .footer a{
+    display: flex;
+    text-align: center;
+    padding: 1.6rem 2rem;
+    text-decoration: none;
+   
+  }
+
+  .footer p{
+      display: flex;
+      flex-direction: column;
+      color: white;
+      position: absolute;
+      margin-top: 7rem;
+      gap: 2rem;
+  }
+/*Fin footer */
+
 
