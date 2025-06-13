@@ -1,0 +1,77 @@
+/**General**/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+.background-img{
+    width: 200rem;
+}
+
+.navegador{
+    position: absolute;
+    top: 0%;
+    right: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+  }
+  .navegador ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+     
+  }
+  
+  .navegador a{
+    color:white;
+    border-radius: 0.4rem;
+    margin-top: 0.6rem;
+    padding: 0.8rem;
+  
+  }
+  
+  .navegador a{
+    display: flex;
+    text-align: center;
+    padding: 1.6rem 2rem;
+    text-decoration: none;
+   
+  }
+
+.titulo{
+    font-size: 3rem;
+    position: absolute;
+    top: 86rem;
+    left: 30rem;
+    color: white;
+}
+
+.h2-vinyl{
+    color: yellow;
+}
+
+.img-logo{
+    position: absolute;
+    bottom: 70rem;
+    left:30rem ;
+}
+
